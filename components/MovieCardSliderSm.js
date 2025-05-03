@@ -162,6 +162,17 @@ const shows = [
 		genres: ["Action", "Comedy", "Crime"],
 		link: "#",
 	},
+	{
+		id: 14,
+		image: "/images/popular-show/concierto-PaolaJara.webp",
+		badge: "05",
+		title: "CELEBRAMOS CON MAMÁ Y PAPÁ",
+		rating: "8.8, 2024",
+		duration: "6PM - 10PM",
+		rating: "Julio 27, 2025",
+		genres: ["Action", "Comedy", "Crime"],
+		link: "#",
+	},
 ];
 
 const MovieCardSliderSm = () => {
