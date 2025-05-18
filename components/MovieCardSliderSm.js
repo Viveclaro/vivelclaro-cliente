@@ -171,7 +171,7 @@ const shows = [
 		duration: "6PM - 10PM",
 		rating: "Julio 27, 2025",
 		genres: ["Action", "Comedy", "Crime"],
-		link: "#",
+		link: "https://www.claro.com.co/eventos/",
 	},
 ];
 
