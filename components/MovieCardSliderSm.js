@@ -173,6 +173,17 @@ const shows = [
 		genres: ["Action", "Comedy", "Crime"],
 		link: "https://www.claro.com.co/eventos/",
 	},
+	{
+		id: 15,
+		image: "/images/GREENDAY_POSTER_POST.webp",
+		badge: "05",
+		title: "GREEN DAY EN BOGOTÁ",
+		rating: "8.8, 2024",
+		duration: "6PM - 10PM",
+		rating: "Agosto 24, 2025",
+		genres: ["Action", "Comedy", "Crime"],
+		link: "https://www.ticketmaster.co/event/green-day",
+	},
 ];
 
 const MovieCardSliderSm = () => {

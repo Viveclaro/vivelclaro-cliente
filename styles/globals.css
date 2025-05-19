@@ -3171,6 +3171,7 @@ button.hl-btn:active span {
 .movie-card-small {
 	border-radius: 40px;
 	overflow: hidden;
+	cursor: pointer;
 }
 @media only screen and (max-width: 575px) {
 	.movie-card-small {

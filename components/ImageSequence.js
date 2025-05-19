@@ -6,6 +6,9 @@ import Image from "next/image";
 import { Volume2, VolumeX, ChevronLeft, ChevronRight } from "lucide-react";
 import LinkinPark from "/public/images/1980x700_Linkin-Park_Banner-Web_con-logos.jpg";
 import LinkinParkMobile from "/public/images/Linkin-Park_Banner-Web_con-logos_Vertical.jpg";
+import GreenDay from "/public/images/250519_Green-Day_Piezas-Landing_1920x1000.webp";
+import GreenDayMobile from "/public/images/GREENDAY_POSTER_POST.webp";	
+
 
 const ImageSequence = () => {
 	const videoRef = useRef(null);
@@ -139,6 +142,33 @@ const ImageSequence = () => {
 						<div className="pt-100">
 							<Image
 								src={LinkinParkMobile}
+								alt=""
+								width={900}
+								height={600}
+								style={{ width: "100%", height: "auto" }}
+								className="w-full"
+							/>
+						</div>
+					)}
+				</SwiperSlide>
+				<SwiperSlide>
+					{!isMobile && (
+						<Image
+							src={GreenDay}
+							alt=""
+							width={1980}
+							height={1000}
+							style={{
+								objectFit: "contain",
+								objectPosition: "center",
+							}}
+							className="w-100"
+						/>
+					)}
+					{isMobile && (
+						<div className="pt-100">
+							<Image
+								src={GreenDayMobile}
 								alt=""
 								width={900}
 								height={600}
