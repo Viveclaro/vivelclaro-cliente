@@ -7,7 +7,11 @@ import { Volume2, VolumeX, ChevronLeft, ChevronRight } from "lucide-react";
 import LinkinPark from "/public/images/1980x700_Linkin-Park_Banner-Web_con-logos.jpg";
 import LinkinParkMobile from "/public/images/Linkin-Park_Banner-Web_con-logos_Vertical.jpg";
 import GreenDay from "/public/images/250519_Green-Day_Piezas-Landing_1920x1000.webp";
-import GreenDayMobile from "/public/images/GREENDAY_POSTER_POST.webp";	
+import GreenDayMobile from "/public/images/GREENDAY_POSTER_POST.webp";
+import GungsAndRoses from "/public/images/Flyer_Guns-N-Roses.webp";	
+import GungsAndRosesMobile from "/public/images/distrito-cultura/250605_Flyer_Guns-N-Roses.webp";
+import SimpreBlessd from "/public/images/Blessd-banner.webp"
+import SimpreBlessdMobile from "/public/images/Blessd-mobile.webp"
 
 
 const ImageSequence = () => {
@@ -142,6 +146,60 @@ const ImageSequence = () => {
 						<div className="pt-100">
 							<Image
 								src={LinkinParkMobile}
+								alt=""
+								width={900}
+								height={600}
+								style={{ width: "100%", height: "auto" }}
+								className="w-full"
+							/>
+						</div>
+					)}
+				</SwiperSlide>
+				<SwiperSlide>
+					{!isMobile && (
+						<Image
+							src={GungsAndRoses}
+							alt=""
+							width={1980}
+							height={1000}
+							style={{
+								objectFit: "contain",
+								objectPosition: "center",
+							}}
+							className="w-100"
+						/>
+					)}
+					{isMobile && (
+						<div className="pt-100">
+							<Image
+								src={GungsAndRosesMobile}
+								alt=""
+								width={900}
+								height={600}
+								style={{ width: "100%", height: "auto" }}
+								className="w-full"
+							/>
+						</div>
+					)}
+				</SwiperSlide>
+				<SwiperSlide>
+					{!isMobile && (
+						<Image
+							src={SimpreBlessd}
+							alt=""
+							width={1980}
+							height={1000}
+							style={{
+								objectFit: "contain",
+								objectPosition: "center",
+							}}
+							className="w-100"
+						/>
+					)}
+					{isMobile && (
+						<div className="pt-100">
+							<Image
+								src={SimpreBlessdMobile}
 								alt=""
 								width={900}
 								height={600}

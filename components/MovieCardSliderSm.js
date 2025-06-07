@@ -184,6 +184,28 @@ const shows = [
 		genres: ["Action", "Comedy", "Crime"],
 		link: "https://www.ticketmaster.co/event/green-day",
 	},
+	{
+		id: 16,
+		image: "/images/distrito-cultura/250605_Flyer_Guns-N-Roses.webp",
+		badge: "05",
+		title: "Guns N' Roses",
+		rating: "8.8, 2024",
+		duration: "6PM - 10PM",
+		rating: "Octubre 07, 2025",
+		genres: ["Action", "Comedy", "Crime"],
+		link: "https://www.ticketmaster.co/event/guns-n-roses-bogota",
+	},
+	{
+		id: 17,
+		image: "/images/Blessd-mobile.webp",
+		badge: "05",
+		title: "Siempre Blessd",
+		rating: "8.8, 2024",
+		duration: "6PM - 10PM",
+		rating: "Noviembre 22, 2025",
+		genres: ["Action", "Comedy", "Crime"],
+		link: "https://www.ticketmaster.co/event/siempre-blessd",
+	},
 ];
 
 const MovieCardSliderSm = () => {
